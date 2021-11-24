@@ -2,21 +2,36 @@
 <html lang="en">
 
 <head>
-    <title> Test Website </title>
+    <title> Karuta Bitframe Caclulator </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h1>Bootstrap Test</h1>
-        <p>Lorem Ipsum</p>
+        <h1>Karuta Bitframe Calculator</h1>
+        <p>Calculates the bitframes you can buy with the amount of bits you have</p>
     </div>
 </div>
 
 <div class="container">
-    <p>This is some text.</p>
-    <p>This is another text.</p>
+    <div class="row">
+
+        <!-- Column to enter amount of bits -->
+        <div class="col-sm-4 ">
+            <h4>Bits</h4>
+            <div class="form-group">
+                <label for="bits_instructions">Please copy the bits here and press caclulate</label>
+                <textarea class="form-control" rows="5" id="bits"></textarea>
+            </div>
+            <button type="button" class="btn btn-secondary">Calculate</button>
+        </div>
+
+        <!-- Column to display the frames after calculation -->
+        <div class="col-sm-8 border-left">
+            <h4>Bit frames</h4>
+        </div>
+    </div>
 </div>
 
 </html>
